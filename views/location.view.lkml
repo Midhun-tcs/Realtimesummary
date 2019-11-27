@@ -1,5 +1,5 @@
 view: location {
-  sql_table_name: real_Time_Summary.location ;;
+#   sql_table_name: real_Time_Summary.location ;;
 
   dimension: current_location {
     type: string
