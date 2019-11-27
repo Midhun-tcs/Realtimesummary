@@ -28,6 +28,6 @@ view: location {
 
   measure: count {
     type: count
-    drill_fields: []
+    drill_fields: [division]
   }
 }
