@@ -17,5 +17,5 @@ explore: real_time_summary {
     type: left_outer
     sql_on: ${real_time_summary.loc_fk}=${location.loc_sk} ;;
     relationship: many_to_one
-  }
+    }
 }
