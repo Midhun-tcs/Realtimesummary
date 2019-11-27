@@ -1,5 +1,5 @@
 view: location {
-  sql_table_name: Real_Time_Summary.location ;;
+  sql_table_name: real_Time_Summary.location ;;
 
   dimension: current_location {
     type: string
@@ -18,6 +18,7 @@ view: location {
 
   dimension: loc_sk {
     type: number
+    primary_key: yes
     sql: ${TABLE}.Loc_sk ;;
   }
 

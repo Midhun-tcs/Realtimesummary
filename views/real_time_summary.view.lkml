@@ -93,6 +93,7 @@ view: real_time_summary {
 
   dimension: loc_fk {
     type: number
+    primary_key: yes
     sql: ${TABLE}.Loc_fk ;;
   }
 
