@@ -14,8 +14,8 @@ explore: location {}
 
 explore: real_time_summary {
   join: location {
-    type: left_outer
+    type: inner
     sql_on: ${real_time_summary.loc_fk}=${location.loc_sk} ;;
-    relationship: many_to_one
+    relationship: one_to_one
     }
 }
