@@ -12,10 +12,11 @@ persist_with: real_time_summary_default_datagroup
 
 explore: location {}
 
-explore: real_time_summary {
+explore: test_real_time_summary {
+#   from: real_time_summary
   join: location {
     type: left_outer
-    sql_on: ${real_time_summary.loc_fk}=${location.loc_sk} ;;
+    sql_on: ${test_real_time_summary.loc_fk}=${location.loc_sk} ;;
     relationship: many_to_one
     }
 }

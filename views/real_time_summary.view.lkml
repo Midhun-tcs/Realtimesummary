@@ -1,4 +1,4 @@
-view: real_time_summary {
+view: test_real_time_summary {
   sql_table_name: Real_Time_Summary.Real_Time_Summary ;;
 
   dimension: _boss_outbound_in_process_fil_location_ {
