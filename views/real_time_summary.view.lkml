@@ -116,46 +116,46 @@ view: test_real_time_summary {
   measure: boss_outbound_in_process_fil_location {
     type: sum
     sql: ${_boss_outbound_in_process_fil_location_} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_outbound_in_process_fil_location]
   }
   measure: boss_shipments_picked_up {
     type: sum
     sql: ${_boss_shipments_picked_up} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_shipments_picked_up]
   }
   measure: boss_shipments_in_transit {
     type: sum
     sql: ${_boss_shipments_in_transit} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_shipments_in_transit]
   }
   measure: boss_shipments_ready_for_pickup {
     type: sum
     sql: ${_boss_shipments_ready_for_pickup} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_shipments_ready_for_pickup]
   }
   measure: boss_shipments_received {
     type: sum
     sql: ${_boss_shipments_received} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_shipments_received]
   }
   measure: boss_shipments_stored {
     type: sum
     sql: ${_boss_shipments_stored} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_shipments_stored]
   }
   measure: boss_shipments_to_be_returned {
     type: sum
     sql: ${_boss_shipments_to_be_returned} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,boss_shipments_to_be_returned]
   }
   measure: late_boss_shipments {
     type: sum
     sql: ${_late_boss_shipments} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,late_boss_shipments]
   }
   measure: overall_boss_shipments_pickup_location {
     type: sum
     sql: ${_overall_boss_shipments_pickup_location_} ;;
-    drill_fields: [location.division,location.region,location.district,location.current_location]
+    drill_fields: [location.division,location.region,location.district,location.current_location,overall_boss_shipments_pickup_location]
   }
 }
